@@ -18,7 +18,7 @@ Place both .el files in your .elisp/ or anywhere where
 your Emacs is configured to look for code.
 Then write in your .emacs something like
 
-```emacs lisp
+```scheme
 (load "gabc-mode.el")
 (load "gabc-ins-mode.el")
 ```
