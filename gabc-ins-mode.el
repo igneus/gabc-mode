@@ -17,13 +17,18 @@
 	    (define-key map (kbd "M-k") "(k)")
 	    (define-key map (kbd "M-l") "(l)")
 	    (define-key map (kbd "M-m") "(m)")
-	    ;; special latin characters
-	    (define-key map (kbd "M-z") "æ")
-	    (define-key map (kbd "M-x") "ǽ")
-	    (define-key map (kbd "M-t") "Æ")
+	    ;; divisions
+	    (define-key map (kbd "M-,") "(,)")
+	    (define-key map (kbd "M-;") "(;)")
+	    (define-key map (kbd "M-:") "(:)")
+	    (define-key map (kbd "M-.") "(::)")
 	    ;; special characters for rubrics
 	    (define-key map (kbd "M-R") "℟")
 	    (define-key map (kbd "M-V") "℣")
+	    ;; special latin characters
+	    (define-key map (kbd "M-u") "æ")
+	    (define-key map (kbd "M-o") "ǽ")
+	    (define-key map (kbd "M-p") "Æ")
             map))
 
 ;; autoload
